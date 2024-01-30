@@ -159,11 +159,11 @@
             android:layout_marginStart="15dp"
             android:background="@android:color/transparent"
             android:backgroundTint="@color/black"
-            android:tint="@color/black"
             app:layout_constraintBottom_toBottomOf="@+id/saveBtn"
             app:layout_constraintStart_toEndOf="@+id/saveBtn"
             app:layout_constraintTop_toTopOf="@+id/saveBtn"
-            app:srcCompat="@drawable/whitetext" />
+            app:srcCompat="@drawable/whitetext"
+            app:tint="@color/black" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
