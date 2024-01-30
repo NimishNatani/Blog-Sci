@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="5dp"
+    android:maxWidth="300dp"
+    android:background="@drawable/chat_receiver"
+    android:minWidth="60dp"
+    android:minHeight="30dp">
+
+    <TextView
+        android:id="@+id/receivertime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/architects_daughter"
+        android:paddingEnd="4dp"
+        android:text="Date"
+        android:textColor="@color/datecolor"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/receivermessage" />
+
+    <TextView
+        android:id="@+id/receivermessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:inputType="text|textAutoCorrect|textMultiLine"
+        android:maxWidth="270dp"
+        android:paddingEnd="8dp"
+        android:text="Message"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

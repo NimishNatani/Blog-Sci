@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230097265074",
+    "project_id": "sci-blog-31a3e",
+    "storage_bucket": "sci-blog-31a3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230097265074:android:615282d44a1fcd7bf684ab",
+        "android_client_info": {
+          "package_name": "com.practicecoding.blog_sci"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLA-5gE0tLcJuCzRZDyElb3wapnIC-GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

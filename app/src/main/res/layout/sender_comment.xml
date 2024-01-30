@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/chat_sender"
+        android:maxWidth="300dp"
+        android:minWidth="60dp"
+        android:minHeight="30dp">
+
+        <TextView
+            android:id="@+id/sendermessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="15dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:inputType="text|textAutoCorrect|textMultiLine"
+            android:maxWidth="270dp"
+            android:paddingEnd="8dp"
+            android:text="Message"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/sendertime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/architects_daughter"
+            android:paddingEnd="4dp"
+            android:text="Date"
+            android:textColor="@color/datecolor"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendermessage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
